@@ -2,5 +2,5 @@
 
 # team
 
-Brooke Baxa - they/them
-Diana Freeberg - she/hers
+- Brooke Baxa - they/them
+- Diana Freeberg - she/hers
