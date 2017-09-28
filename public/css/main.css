@@ -1,0 +1,41 @@
+/* to make a rainbow gradient
+  background: blue; /* For browsers that do not support gradients
+  background: -webkit-linear-gradient(red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0
+  background: -o-linear-gradient(red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0
+  background: -moz-linear-gradient(red, orange, yellow, green, blue, indigo, violet); /* For Firefox 3.6 to 15
+  background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); /* Standard syntax */
+body {
+  background-image: url('https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg');
+  background-position: left;
+  background-size: cover;
+}
+nav {
+  background: lightgrey;
+}
+#navz li {
+  display: inline-block;
+}
+
+#heading {
+  margin: 1%;
+  margin-bottom: 10%;
+}
+ #login {
+   background: lightgrey;
+   padding: 1%;
+   width: 30%;
+ }
+input {
+  margin: 1%;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: darkgrey;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+  padding: 2%;
+}
