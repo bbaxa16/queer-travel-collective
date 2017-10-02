@@ -34,8 +34,20 @@
       </div>
     </header>
 
+    <!-- login for admin -->
     <section ng-if='ctrl.admin' ng-include="'./loginForm.html'"></section>
-    </section>
+
+    <div class="container" id='blogBoss'>
+      <div class="blog text-center">
+        <img src="https://www.japan-guide.com/g5/7120_01.jpg" alt="waterfall">
+        <h5>this is a blog about waterfalls</h5>
+      </div>
+      <div class="blog text-center">
+        <img src="https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_467,q_65,w_1024/v1/clients/norway/hiking_fossjuvet_forsand_norway_6fcf1221-3beb-4285-ae3d-322253a6a436.jpg" alt="mountains">
+        <h5>this is a blog about mountains</h5>
+      </div>
+    </div>
+  </section> <!-- background opacity trick -->
   </body>
   <footer class="footer">
       <span ng-click='ctrl.toggleAdmin()'>admin</span>
