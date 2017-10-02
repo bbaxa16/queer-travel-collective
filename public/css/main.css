@@ -57,7 +57,8 @@ input {
 }
 
 #blogBoss {
-  background: lightgrey;
+  background: #ECDFC6;
+  opacity: .8;
   width: 60%;
   overflow: scroll;
   margin-bottom: 2%;
